@@ -3,7 +3,7 @@
 #include <string.h>
 #include <unistd.h>
 
-#define FILE_NAME "example1.txt"
+#define FILE_NAME "example-inputs/example1.txt"
 
 int main(void) {
 
@@ -41,6 +41,8 @@ int main(void) {
   char write_buf[6];
   int write_return = write(fd, write_buf, strlen(write_buf));
   if (write_return == -1) {
+    // Remember to ALWAYS clear used heap memory/opened resources, if you're
+    // going to exit the program.
     perror("write");
     /* free(p1); */
     close(fd);
