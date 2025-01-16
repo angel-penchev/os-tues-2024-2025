@@ -7,6 +7,7 @@ int main(int argc, char **argv) {
   // Check if correct amount of args is supplied
   if (argc != 2) {
     fprintf(stderr, "Invalid arguments.");
+    // write(STDERR_FILENO, "Invalid arguments.", strlen("Invalid arguments."));
     return 1;
   }
 
