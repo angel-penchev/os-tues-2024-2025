@@ -24,7 +24,7 @@
 - [Тема 1: История и структура на компютърните системи.](./theory/01-computer-systems-history-and-structure)
 - [Тема 2: Компютърни системи. (продължение)](./theory/02-computer-systems-continuation)
 - [Тема 3: Въведение в операционните системи.](./theory/03-operating-systems-introduction)
-  <!-- - [Тема 4: Нишки и синхронизация.](./theory/04-threads-and-syncronization) -->
+- [Тема 4: Нишки и синхронизация.](./theory/04-threads-and-syncronization)
   <!-- - [Тема 5: Комуникация между процеси посредством тръби (pipes).](./theory/05-process-communication-with-pipes/) -->
   <!-- - [Тема 5.1. Shell променливи - дефиниране, инициализиране, присвояване. Системни променливи. Командна процедура (shell scripts)](./theory/05-shellscripts/05.1-shell-variables-and-shellscripts/) -->
   <!-- - [Тема 5.2. Kомандни процедури без и с позиционни параметри. Цикли.](./theory/05-shellscripts/05.2-shellscripts-and-loops/) -->
